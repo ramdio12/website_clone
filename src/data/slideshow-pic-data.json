@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "image": "/img/slide_aws.png"
+  },
+  {
+    "id": 2,
+    "image": "/img/slide_blockchain.png"
+  },
+  {
+    "id": 3,
+    "image": "/img/slide_laravel.png"
+  },
+  {
+    "id": 4,
+    "image": "/img/slide_quickbooks.png"
+  },
+  {
+    "id": 5,
+    "image": "/img/slide_reactjs.png"
+  },
+  {
+    "id": 6,
+    "image": "/img/slide_reactnative.png"
+  },
+  {
+    "id": 7,
+    "image": "/img/slide_terraform.png"
+  },
+  {
+    "id": 8,
+    "image": "/img/slide_vagrant.png"
+  }
+]

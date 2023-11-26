@@ -1,0 +1,61 @@
+.inquiry {
+  background: url(../../../img/coding.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.inquiry__container {
+  display: flex;
+  padding: 3rem 0;
+  background-color: rgba(7, 48, 71, 0.7);
+  height: 100%;
+}
+
+.inquiry__learn,
+.inquiry__question {
+  text-align: center;
+  flex: 1;
+}
+.inquiry__learn h2,
+.inquiry__question h2 {
+  font-size: 2.3rem;
+  font-weight: var(--boldest);
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.inquiry__learn span,
+.inquiry__question span {
+  color: var(--vivid-cyan-blue);
+}
+
+.inquiry__learn button,
+.inquiry__question button {
+  background-color: var(--button-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  outline: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+hr {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .inquiry__container {
+    flex-direction: column;
+  }
+  .inquiry__learn {
+    margin-bottom: 2rem;
+  }
+  .inquiry__question {
+    margin-top: 2rem;
+  }
+
+  .inquiry__container hr {
+    display: block;
+    margin: 0 5rem;
+  }
+}

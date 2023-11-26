@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Python",
+    "description": "Python is a popular general-purpose programming language that can be used for a wide variety of applications. It includes high-level data structures, dynamic typing, dynamic binding, and many more features that make it as useful for complex application development as it is for scripting or “glue code” that connects components together.",
+    "image": "/img/course-python.png"
+  },
+  {
+    "id": 2,
+    "name": "AWS",
+    "description": "AWS is a cloud computing platform, offering customers the chance to outsource their data storage requirements to Amazon instead of having to invest in their own servers.",
+    "image": "/img/course-aws.png"
+  },
+  {
+    "id": 3,
+    "name": "Vue",
+    "description": "Vue is a progressive framework for building user interfaces. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases.",
+    "image": "/img/course-vue.png"
+  },
+  {
+    "id": 4,
+    "name": "React JS",
+    "description": "React is a JavaScript library that specializes in helping developers build user interfaces, or UIs.",
+    "image": "/img/course-react.png"
+  },
+  {
+    "id": 5,
+    "name": "Git",
+    "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+    "image": "/img/course-git.png"
+  },
+  {
+    "id": 6,
+    "name": "Laravel",
+    "description": "Laravel is a free and open-source PHP framework that provides a set of tools and resources to build modern PHP applications.",
+    "image": "/img/course-laravel.png"
+  },
+  {
+    "id": 7,
+    "name": "WordPress",
+    "description": "WordPress is a free, open-source website creation platform that contains plugin architecture where you can customize any website to fit your business, online store, blog, etc. It is a versatile content management system (CMS) that allows you to host and build websites. And it is one of the easiest and most powerful website builders nowadays.",
+    "image": "/img/course-wordpress.png"
+  },
+  {
+    "id": 8,
+    "name": "Vagrant",
+    "description": "Vagrant is a tool for managing virtual machine environments with an easy-to-use workflow that helps to lower the environment setup time and increase productivity.",
+    "image": "/img/course-vagrant.png"
+  },
+
+  {
+    "id": 9,
+    "name": "Robot Framework",
+    "description": "Robot Framework is an open-source framework based on Python that represents a testing platform for accepting testing development. This can be used to test applications that requires testing of several technologies and interfaces.",
+    "image": "/img/course-robot.png"
+  }
+]

@@ -1,0 +1,11 @@
+.sc__card {
+  width: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sc__card img {
+  width: 100%;
+  cursor: pointer;
+}

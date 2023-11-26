@@ -1,0 +1,20 @@
+[
+  {
+    "id": 9,
+    "name": "Robot Framework",
+    "description": "Robot Framework is an open-source framework based on Python that represents a testing platform for accepting testing development. This can be used to test applications that requires testing of several technologies and interfaces.",
+    "image": "/img/course-robot.png"
+  },
+  {
+    "id": 6,
+    "name": "Laravel",
+    "description": "Laravel is a free and open-source PHP framework that provides a set of tools and resources to build modern PHP applications.",
+    "image": "/img/course-laravel.png"
+  },
+  {
+    "id": 2,
+    "name": "AWS",
+    "description": "AWS is a cloud computing platform, offering customers the chance to outsource their data storage requirements to Amazon instead of having to invest in their own servers.",
+    "image": "/img/course-aws.png"
+  }
+]

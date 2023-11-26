@@ -1,0 +1,61 @@
+.sidenav {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.sidenav__items {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  animation: nav 0.4s ease-in-out;
+}
+
+.sidenav__items .btn-container {
+  align-self: flex-end;
+  margin: 2rem 1.5rem 0 0;
+}
+
+.sidenav__items .btn-container button {
+  font-size: 1rem;
+  font-weight: var(--bolder);
+  background-color: transparent;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.sidenav__menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  margin-left: 1.2rem;
+}
+
+.sidenav__menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: var(--bold);
+  font-size: 1.08rem;
+  margin-bottom: 1.25em;
+}
+
+@keyframes nav {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

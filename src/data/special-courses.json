@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Diploma of Applied Blockchain (10849NAT) - Soon",
+    "description": "The 108049NAT Diploma of Applied Blockchain consists of six units and the option of two out of four elective units. Its complexity covers topics such as planning for a blockchain business model.  performance of a business model deployed on blockchain, to prepare an organization for transitioning operations to a blockchain network.",
+    "image": "/img/blockchain.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Advanced Diploma of Applied Blockchain (10747NAT) - Soon",
+    "description": "The 108049NAT Diploma of Applied Blockchain consists of six units and the option of two out of four elective units. Its complexity covers topics such as planning for a blockchain business model.  performance of a business model deployed on blockchain, to prepare an organization for transitioning operations to a blockchain network.",
+    "image": "/img/applied-blockchain.jpg"
+  }
+]

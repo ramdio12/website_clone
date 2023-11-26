@@ -1,0 +1,19 @@
+.community {
+  background-color: var(--default-bg-color);
+  text-align: center;
+  padding: 2.2rem 0 2rem;
+}
+
+.community h2 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  font-weight: var(--boldest);
+}
+
+.community h2 span {
+  color: var(--cyan-blue);
+}
+
+.community img {
+  margin: 20px;
+}

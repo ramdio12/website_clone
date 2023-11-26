@@ -1,0 +1,41 @@
+.featured-courses {
+  background-color: var(--default-bg-color);
+  margin: 0 auto;
+  padding: 20px;
+}
+.fs__featured {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.featured-courses h1 {
+  font-size: 3rem;
+  margin: 1em 0 1em;
+  font-weight: var(--bolder);
+  text-align: center;
+}
+
+.featured-courses h1 span {
+  color: var(--cyan-blue);
+}
+
+.fs__button {
+  text-align: center;
+}
+.fs__button button {
+  margin: 2rem 0 1rem;
+  background-color: var(--button-color);
+  color: #fff;
+  font-size: 1.15rem;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.fs__button button:hover {
+  background: var(--cyan-blue);
+}

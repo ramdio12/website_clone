@@ -1,0 +1,77 @@
+.training-stats {
+  background: url(../../../img/computer-training.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ts__container {
+  background-color: rgba(5, 101, 156, 0.85);
+}
+
+.ts__container h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: var(--boldest);
+  font-size: 3.2rem;
+  padding-top: 2rem;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ts__container h2 span {
+  color: var(--cyan-blue);
+}
+.fs__stats-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  margin: 3rem 0;
+}
+
+.fs__stats-content .stat__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fs__stats-content .stat__item h3 {
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 1rem;
+}
+.fs__stats-content .stat__item h3 span {
+  font-size: 2.5rem;
+  display: block;
+  font-weight: var(--boldest);
+}
+
+.ts__container .email {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  font-style: italic;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.ts__container .email span {
+  color: var(--cyan-blue);
+  font-style: normal;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .fs__stats-content {
+    flex-direction: column;
+  }
+  .ts__container h2 {
+    font-size: 1.75rem;
+  }
+  .ts__container .email {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,33 @@
+.courses__heading {
+  background: url(../img/coding_course.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.title-container {
+  background-color: rgba(6, 147, 229, 0.6);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.title-container h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+.courses__title h1 span {
+  color: var(--pale-blue);
+}
+
+.courses__container {
+  padding: 3.5rem 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  animation: fadeIn 1s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .courses__container {
+    justify-content: center;
+  }
+}
