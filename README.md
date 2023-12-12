@@ -25,7 +25,21 @@
 
     Solution: I find out that importing react-helmet-async instead of react-helmet will remove the error
 
+    Problem: 404: NOT FOUND Message appeared after refreshing the website deployed on vercel
+
+    Solution: Create a vercel.json file on the project root directory and this one:
+
+                {
+
+                    "rewrites": [
+                {
+                "source": "/(.*)",
+                "destination": "/"
+                }
+                                ]
+                }
+
 ### Needs to be improved
 
 - Tracking Some Components that requires less coding
-- Although I wanted to use Vanilla CSS to showcase my skills in UI development, the site can still be improved with Tailwind CSS and Bootstrap CSS or React Bootstrap (still at learning phase)
+- Although I wanted to use Vanilla CSS to showcase my skills in UI development, the site can still be improved with Tailwind CSS and Bootstrap CSS or React Bootstrap for Cross browsing compatibility (still at learning phase)
