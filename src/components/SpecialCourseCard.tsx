@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./css/SpecialCourseCard.css";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 type SpecialCourseProps = {
   id: number;
@@ -20,7 +21,11 @@ const SpecialCourseCard = ({
   const navigate = useNavigate();
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, transform: "translateY(50%)" }}
+      whileInView={{ opacity: 1, transform: "translateY(0)" }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
       className="sc__card"
       key={id}
       onClick={() => navigate(`/special-courses/course/${id - 1}`)}>
@@ -35,7 +40,7 @@ const SpecialCourseCard = ({
           <FontAwesomeIcon icon={faArrowRight} />
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

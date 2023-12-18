@@ -23,7 +23,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 4rem;
-  animation: fadeIn 1s ease;
 }
 
 @media screen and (max-width: 768px) {

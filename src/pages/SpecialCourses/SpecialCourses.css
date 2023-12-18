@@ -15,15 +15,12 @@
 .sc__container .container__heading {
   margin-bottom: 2rem;
 }
-.sc__container .container__heading h2 {
-  animation: fadeIn 1s;
-}
 
 .container__item {
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
-  animation: fadeIn 1s;
+
   align-items: center;
   justify-content: center;
 }
