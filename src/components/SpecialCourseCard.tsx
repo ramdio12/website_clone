@@ -17,7 +17,7 @@ const SpecialCourseCard = ({
   description,
   image,
 }: SpecialCourseProps) => {
-  const text = description.substring(0, 120);
+  const text = description.substring(0, 96);
   const navigate = useNavigate();
 
   return (

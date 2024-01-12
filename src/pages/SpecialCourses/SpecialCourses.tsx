@@ -3,6 +3,7 @@ import "./SpecialCourses.css";
 import specialCourses from "../../data/special-courses.json";
 import SpecialCourseCard from "../../components/SpecialCourseCard";
 import BrowserTitle from "../../components/BrowserTitle";
+import { motion } from "framer-motion";
 
 const SpecialCourses = () => {
   return (
@@ -19,7 +20,7 @@ const SpecialCourses = () => {
         <div className="container__heading">
           <h2>
             We'll be offering the following Australian government-accredited
-            special courses:
+            <span> special courses</span>:
           </h2>
         </div>
         <div className="container__item">
@@ -27,6 +28,14 @@ const SpecialCourses = () => {
             <SpecialCourseCard {...course} />
           ))}
         </div>
+        <motion.button
+          initial={{ opacity: 0, translateY: 100 }}
+          whileInView={{ opacity: 1, translateY: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+          className="scBtn">
+          KEEP ME INFORMED
+        </motion.button>
       </div>
 
       <Inquiry />

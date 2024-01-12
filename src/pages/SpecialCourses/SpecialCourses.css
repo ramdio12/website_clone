@@ -15,12 +15,24 @@
 .sc__container .container__heading {
   margin-bottom: 2rem;
 }
-
+.container__heading h2 span {
+  color: #08cafa;
+}
 .container__item {
   display: flex;
   flex-wrap: wrap;
-  gap: 2.5rem;
-
+  gap: 5rem;
   align-items: center;
   justify-content: center;
+}
+
+.scBtn {
+  background-color: #08cafa;
+  color: white;
+  border: none;
+  margin-top: 2rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 5rem;
+  cursor: pointer;
 }

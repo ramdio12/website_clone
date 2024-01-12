@@ -60,14 +60,16 @@ body {
 }
 
 .title__container {
-  background-color: rgba(6, 147, 229, 0.2);
+  background-color: rgba(20, 82, 117, 0.8);
   text-align: center;
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .title__container h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.2rem;
+  width: 60rem;
+  margin: 0 auto;
 }
 
 .course__details {

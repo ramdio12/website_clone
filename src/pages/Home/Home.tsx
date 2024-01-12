@@ -25,13 +25,13 @@ export const Home = () => {
           transition={{ duration: 1 }}
           viewport={{ once: true }}>
           <h1>
-            Code@CodeLearn Offers <span>FREE Courses and Trainings</span>
+            Learn at Codelearn Offers <span>FREE Courses and Trainings</span>
           </h1>
           <p>
-            Code@CodeLearn is the educational arm of CodeLearn, aiming to help
-            learners gain the skills needed to achieve their full potential. The
-            courses we offer are free to help you excel or prepare for the new
-            career of your dreams.
+            Learn at Codelearn is the educational arm of CodeLearn, aiming to
+            help learners gain the skills needed to achieve their full
+            potential. The courses we offer are free to help you excel or
+            prepare for the new career of your dreams.
           </p>
           <button onClick={() => navigate("/about")}>LEARN MORE</button>
         </motion.div>
